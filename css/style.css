@@ -437,6 +437,28 @@ li, ul{
     position: relative;
     left: 650px;
 }
+
+.clicks_button1{
+    position:absolute;
+    margin-left: 550px;
+    margin-top: 22px;
+    cursor: pointer;
+}
+
+.clicks_button2{
+    position:absolute;
+    margin-left: 550px;
+    margin-top: 110px;
+    cursor: pointer;
+}
+
+.clicks_button3{
+    position:absolute;
+    margin-left: 550px;
+    margin-top: 200px;
+    cursor: pointer;
+}
+
 .person_data{
     position: relative;
     left: 0;
