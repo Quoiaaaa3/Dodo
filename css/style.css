@@ -1,0 +1,738 @@
+body {
+    min-width: 320px;
+    background-color: #ffffff;
+    line-height: 36px;
+    font-family: "Dodo Rounded Bold";
+}
+
+.container{
+    max-width: 1265px;
+    padding: 0 200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+div{
+    display: block;
+}
+
+p .interests{
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+  }
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 48px 0 24px;
+}
+
+.header_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_right{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.logo {
+    width: 184px;
+    height: 64px;
+    color: #000;
+    position: relative; 
+}
+
+
+.form {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 22px;
+    padding: 10px 2px;
+    min-width: 225px;
+    font-size: 22px;
+    line-height: 36px;
+    font-weight: 500;
+    letter-spacing: -.01em;
+    background-color: #efe41a;
+    border-radius: 64px;
+    transition: 0.6s;
+    text-decoration: none;
+    color: #000;
+}
+
+
+.form:hover{
+    background-color: #ed771e;
+}
+
+.slogan{
+    display: flex;
+    justify-self: flex-end;
+    align-items: center;
+    height: 50px;
+}
+
+.content{
+    flex-grow: 1;
+    min-height: calc(100vh - 24px);
+    padding-top: 200px; 
+}
+
+.text_content{
+    display: flex;
+    justify-content: space-between 0 200;
+}
+
+.text_1{
+    margin-top: -15px;
+    font-size: 80px;
+    max-width: 700px;
+    line-height: 86px;
+}
+
+.text_2{
+    max-width: 450px;
+    font-size: 22px;
+    font-family: "Dodo Rounded";
+}
+
+.slideshow{
+    padding-top: 95px;
+    font-size: 48px;
+}
+
+.slideshow_text{
+    transform: rotate(-3deg);
+    margin-left: 50px;
+}
+
+.slideshow_photos{
+    position: relative;
+}
+
+
+.slideshow_photo_1{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    z-index: 0;
+}
+
+.slideshow_photo_2{
+    position: absolute;
+    top: 50px;
+    left: 135px;
+    z-index: 0;
+}
+
+.slideshow_photo_3{
+    position: absolute;
+    top: 70px;
+    left: 265px;
+    z-index: 0;
+}
+
+.slideshow_photo_4{
+    position: absolute;
+    top: 30px;
+    z-index: 0;
+}
+
+.slideshow_photo_5{
+    position: absolute;
+    top: 30px;
+    z-index: 0;
+}
+
+.slideshow button{
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 300px;
+    cursor: pointer;
+}
+
+.slideshow_button_1{
+    position: relative;
+    left: -10%;
+}
+
+.slideshow_button_2{
+    position: relative;
+    left: 10%;
+    transform: scale(-1, 1);
+}
+
+
+.work_options{
+    padding-top: 720px;
+    position: relative;
+    font-size: 48px;
+    line-height: 80px;
+}
+
+.work_options_text{
+    font-family: "Dodo Rounded";
+    font-size: 24px;
+}
+
+.options_photos{
+    display: flex;
+    margin: 0 -4px;
+    padding-top: 20px;
+    position: relative;
+}
+
+.options_item{
+    flex: 1 1 auto;
+    margin: 0 5px;
+    border-radius: 34px;
+}
+
+.options_text_content{
+    display: flex;
+    font-size: 22px;
+    justify-content: space-between;
+    transition: 0.6s ease;
+    position: relative;
+    top: -80px;
+}
+
+.options_text_title{
+    padding: 3px 8px;
+    background-color: #efe41a;
+    border-radius: 90px;
+    position: relative;   
+    top: -75px;
+    left: 10px;
+}
+
+.hidden_text{
+    font-size: 22px;
+    max-width: 180px;
+    line-height: 20px;
+    display: block;
+    position: relative;   
+    top: -75px;
+    left: 10px;
+    color: white;
+}
+
+.delivery:hover .delivery_txt{
+    position: relative;
+    top: -80px;
+}
+.cashier:hover .cashier_txt{
+    position: relative;
+    top: -80px;
+}
+.pizzamaker:hover .pizzamaker_txt{
+    position: relative;
+    top: -80px;
+}
+.cleaner:hover .cleaner_txt{
+    position: relative;
+    top: -80px;
+}
+.manager:hover .manager_txt{
+    position: relative;
+    top: -80px;
+}
+.second_manager:hover .second_manager_txt{
+    position: relative;
+    top: -80px;
+}
+
+
+
+.interests{
+    padding-top: 20px;
+    display: flex;
+}
+
+.interests_title_text{
+    font-size: 46px;
+    max-width: 600px;
+    line-height: 60px;
+}
+
+.interests_main_text{
+    max-width: 730px;
+    font-size: 22px;
+    font-family: "Dodo Rounded";
+    padding-top: 28px;
+    line-height: 32px;
+}
+
+.advs_first{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px 24px;
+    margin-left: 100px;
+}
+
+.advs_item{
+    max-width: 180px;
+    line-height: 1;
+}
+
+.advs_text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 26px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+}
+
+li, ul{
+    margin: 0;
+    list-style: none;
+}
+
+.adv_txt{
+    padding: 3px 16px 2px;
+    background-color: #efe41a;
+    border-radius: 21px;
+}
+
+.bottom_text{
+    margin-top: -7px;
+    border-radius: 19px 21px 21px 4px
+}
+
+.advs_icon{
+    transition: 0.3s;
+    display: inline-flex;
+}
+
+.advs_icon:hover{
+    position: relative;
+    transform: scale(1.28);
+}
+
+.advs_second{
+    padding-top: 12vh;
+}
+
+.color_blocks{
+    display: flex;
+    width: 100%;
+    line-height: 28px; 
+    padding-top: 40px; 
+    justify-content: space-between;
+}
+
+.block_title{
+    font-size: 33px;
+    line-height: 32px;
+}
+
+.block_content{
+    font-size: 20px;
+    font-family: "Dodo Rounded";
+}
+
+.block_icon{
+    transition: 0.6s;
+}
+
+.respect{
+    background-color: #c5a6cf;
+    padding: 35px 41.5px;
+    max-width: 320px;
+    border-radius: 64px;
+    transition: 0.6s;
+    display: inline-block;
+}
+
+.openness{
+    background-color: #ed771e;
+    padding: 35px 41.5px;
+    max-width: 320px;
+    border-radius: 64px;
+    transition: 0.6s;
+    display: inline-block;
+}
+
+.growth{
+    background-color: #efe41a;
+    padding: 35px 41.5px;
+    max-width: 320px;
+    border-radius: 64px;
+    transition: 0.6s;
+    display: inline-block;
+}
+
+.respect:hover .block_icon{
+    transform: scale(1.28);
+}
+
+.openness:hover .block_icon{
+    transform: scale(1.28);
+}
+
+.growth:hover .block_icon{
+    transform: scale(1.28);
+}
+
+.respect:hover{
+    transform: scale(1.04);
+}
+
+.openness:hover{
+    transform: scale(1.04);
+}
+
+.growth:hover{
+    transform: scale(1.04);
+}
+
+.forming_part{
+    padding-top: 150px;
+}
+
+.form_title{
+    font-size: 46px;
+}
+
+.opros {
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 25px;
+    color: #efefef;
+    font-family: "Dodo Rounded";
+}
+    
+.town { grid-area: 1 / 1 / 2 / 3; }
+.adress { grid-area: 2 / 1 / 3 / 3; }
+.work { grid-area: 3 / 1 / 4 / 3; background-color: #e5e5e5;    }
+.name { grid-area: 1 / 3 / 2 / 5; }
+.surname { grid-area: 2 / 3 / 3 / 5; }
+.birth { grid-area: 3 / 3 / 4 / 4; }
+.telephone { grid-area: 3 / 4 / 4 / 5; }
+.social { grid-area: 4 / 3 / 5 / 5; }
+.for_wish { 
+    font-size: 18px;
+    font-family: "Dodo Rounded";
+    color: #b2b2b2;
+    position: relative;
+    left: 650px;
+}
+.person_data{
+    position: relative;
+    left: 0;
+    font-family: "Dodo Rounded";
+    font-size: 18px;
+}
+
+.opros input{
+    padding: 20px 2px;
+    font-family: "Dodo Rounded";
+    font-size: 20px;
+    text-indent: 25px;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    border: 2px solid #efefef;
+    outline: none;
+}
+.person_data a{
+    color: #ed771e;
+    text-decoration: none;
+}
+
+.data_appr{
+    background-color: #faefe1;
+    height: 18px;
+    width: 18px;
+    border: none; 
+    border-radius: 4px;
+    color:#ed771e;
+    position: relative;
+    font-size: 0px;
+    top: -7px;
+}
+
+.data_text{
+    position: relative;
+    left: 5px;
+}
+
+.data_symbol{
+    position: relative;
+    left: -2px;
+    top: -2px;
+}
+
+.data_appr:focus{
+    font-size: 13px;
+    position: relative;
+    top: 0;
+}
+
+.data_conf{
+    border-radius: 64px;
+    padding: 13px 140px;
+    background-color: #ed771e;
+    display: inline-block;
+    position: relative;
+    top: 25px;
+    cursor: pointer;
+    font-size: 22px;
+    transition: 0.6s;
+}
+
+.data_conf:hover{
+    background-color:#efe41a;
+}
+
+.queries{
+    padding-top: 200px;
+}
+
+.queries_title{
+    font-size: 46px;
+}
+
+.queries_text{
+    max-width: 400px;
+    font-family: "Dodo Rounded";
+    font-size: 22px;
+    position: relative;
+    top: 30px;
+}
+
+.queries a{
+    text-decoration: none;
+    color:#ed771e;
+}
+
+.queries_delivery{
+    position: relative;
+    font-size: 34px;
+    color:#ed771e;
+}
+
+.queries_kitchen{
+    position: relative;
+    font-size: 36px;
+    left: 40px;
+}
+
+.queries_right_side{
+    padding: 0 0 0 520px;
+    margin-top: -190px;
+}
+
+.queries_buttons div{
+    font-family: "Dodo Rounded";
+}
+
+.queries_coop{
+    border: none;
+    background-color: #efefef;
+    padding: 30px 0 10px 0;
+    border-radius: 25px;
+    text-align: left;
+    line-height: 25px;
+    position: relative;
+    top: 30px;
+}
+
+.queries_graph{
+    border: none;
+    background-color: #efefef;
+    padding: 30px 0 10px 0;
+    border-radius: 25px;
+    text-align: left;
+    line-height: 25px;
+    position: relative;
+    top: 50px;
+}
+
+.queries_reward{
+    border: none;
+    background-color: #efefef;
+    padding: 30px 0 10px 0;
+    border-radius: 25px;
+    text-align: left;
+    line-height: 25px;
+    position: relative;
+    top: 70px;
+}
+
+.queries_orders{
+    border: none;
+    background-color: #efefef;
+    padding: 30px 0 10px 0;
+    border-radius: 25px;
+    text-align: left;
+    line-height: 25px;
+    position: relative;
+    top: 90px;
+}
+
+.queries_fines{
+    border: none;
+    background-color: #efefef;
+    padding: 30px 0 10px 0;
+    border-radius: 25px;
+    text-align: left;
+    line-height: 25px;
+    position: relative;
+    top: 110px;
+}
+
+
+.queries_right_title{
+    font-size: 24px;
+    margin-left: 33px;
+}
+
+.queries_hidden_text{
+    font-size: 16px;
+    margin-left: 33px;
+    max-width: 680px;
+}
+
+.queries_hidden_text_bold{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.button_clicker{
+    transform: rotate(180deg);
+    float: right;
+    position: relative;
+    right: 33px;
+}
+
+.sources{
+    padding-top: 220px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Dodo Rounded";
+    color: #adadad;
+}
+
+.sources a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.Dodo{
+    display:grid;
+    max-width: 250px;
+}
+
+.Find{
+    display: grid;
+    max-width: 250px;
+    max-height: 100px;
+}
+
+.Interesting{
+    display: grid;
+    max-width: 250px;
+    line-height: 25px;
+}
+
+.Partners{
+    max-width: 250px;
+    display: grid;
+}
+
+.Downloads{
+    padding-left: 10px;
+    word-spacing: 10px;
+}
+
+.sources_title{
+    font-family: "Dodo Rounded";
+    color: rgb(40, 40, 40);
+}
+
+.social_networks{
+    padding-top: 50px;
+    word-spacing: 30px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    padding-bottom: 6px;
+}
+
+.social_networks a{
+    text-decoration: none;
+    font-family: "Dodo Rounded";
+    color: #adadad;
+}
+
+.vk{
+    display: inline-flex;
+}
+
+.vk_icon{
+    margin-right: 5px;
+}
+
+.youtube{
+    display: inline-flex;
+}
+
+.youtube_icon{
+    margin-right: 5px;
+}
+
+.footer{
+    border-top: 1px #adadad;
+}
+
+.final{
+    padding-top: 13px;
+    font-family: "Dodo Rounded";
+    display: flex;
+}
+
+.final_left{
+    display: flex;
+    justify-content: space-between;
+    width: 780px;
+    color: #959595;
+}
+
+.final a{
+    text-decoration: none;
+    color:inherit;
+}
+
+.final_right{
+    display: flex;
+    width: 520px;
+    justify-content: right;
+    color: #959595;
+}
+
+.copyright{
+    padding-top: 5px;
+    color: #c5c5c5;
+    line-height: 6px;
+    font-size: 14px;
+    font-family: "Dodo Rounded";
+}
